@@ -1,0 +1,135 @@
+/* ============================================================
+   ESTILOS DEL TABLERO
+   Dash carga este archivo automaticamente porque esta
+   dentro de la carpeta "assets".
+   ============================================================ */
+
+/* Toda la pagina: fondo gris muy claro y letra sencilla */
+body {
+    margin: 0;
+    background-color: #f3f5f6;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #2b2b2b;
+}
+
+/* Caja principal: centra el contenido y deja espacio a los lados */
+.pagina {
+    max-width: 1100px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+/* Encabezado con una linea azul debajo */
+.encabezado {
+    border-bottom: 4px solid #1f5f8b;
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.encabezado h1 {
+    margin: 0;
+    color: #1f5f8b;
+}
+
+.encabezado p {
+    margin: 5px 0 0 0;
+    color: #555555;
+    font-size: 18px;
+}
+
+/* Fila de filtros: pone los 4 filtros uno al lado del otro */
+.fila-filtros {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    background-color: white;
+    border-radius: 6px;
+    padding: 15px 20px;
+    margin-bottom: 20px;
+}
+
+/* Cada filtro ocupa el mismo espacio */
+.filtro {
+    flex: 1;
+    min-width: 200px;
+}
+
+/* Nombre que va encima de cada filtro */
+.filtro label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+    color: #1f5f8b;
+}
+
+/* Texto pequeno y gris para las notas aclaratorias */
+.nota {
+    margin: -8px 0 20px 0;
+    font-size: 14px;
+    color: #666666;
+}
+
+/* Fila de tarjetas: pone las tarjetas una al lado de la otra */
+.fila-tarjetas {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+    margin-bottom: 20px;
+}
+
+/* Cada tarjeta: fondo blanco con un borde azul a la izquierda */
+.tarjeta {
+    flex: 1;
+    min-width: 220px;
+    background-color: white;
+    border-left: 6px solid #1f5f8b;
+    border-radius: 6px;
+    padding: 15px 20px;
+}
+
+/* Titulo pequeno de la tarjeta */
+.tarjeta-titulo {
+    margin: 0;
+    color: #555555;
+    font-size: 15px;
+}
+
+/* Numero grande de la tarjeta */
+.tarjeta-numero {
+    margin: 8px 0 0 0;
+    font-size: 32px;
+    font-weight: bold;
+    color: #1f5f8b;
+}
+
+/* Cuando la tarjeta muestra un nombre en vez de un numero, la letra es mas pequena */
+.tarjeta-texto {
+    font-size: 16px;
+}
+
+/* Recuadro blanco donde va cada grafico */
+.recuadro {
+    background-color: white;
+    border-radius: 6px;
+    padding: 10px;
+    margin-bottom: 20px;
+}
+
+/* Titulo de la seccion de antidiabeticos */
+.titulo-seccion {
+    margin-top: 40px;
+    padding-bottom: 8px;
+    border-bottom: 2px solid #1f5f8b;
+    color: #1f5f8b;
+}
+
+/* Recuadro de la conclusion */
+.conclusion {
+    padding: 15px 25px;
+    font-size: 17px;
+    line-height: 1.5;
+}
+
+.conclusion h3 {
+    color: #1f5f8b;
+}
